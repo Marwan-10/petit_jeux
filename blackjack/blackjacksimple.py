@@ -1,5 +1,4 @@
 import random
-from art import logo
 
 def choix_carte():
   cartes=[11,2,3,4,5,6,7,8,9,10,10,10,10]
@@ -33,7 +32,7 @@ def comparaison(totj,totpc):
     return "Perdu"
     
 def jouer():
-  print(logo)
+  
   
   joueur=[]
   pc=[]
